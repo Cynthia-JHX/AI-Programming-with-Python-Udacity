@@ -1,0 +1,3 @@
+python Code/train.py  “flowers” --arch “resnet152”
+
+python Code/predict.py  "flowers/test"  "checkpoint_v0.pt"
